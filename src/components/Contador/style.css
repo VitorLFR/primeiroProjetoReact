@@ -1,0 +1,15 @@
+.contador{
+    margin: 10% auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.counter{
+    padding: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}

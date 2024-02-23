@@ -1,4 +1,5 @@
 import './App.css'
+import { Contador } from './components/Contador'
 import { Header } from './components/Header'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <a href="#">Vai para Contato</a>
         </div>
         
+        <Contador />
       </main>
     </>
   )
