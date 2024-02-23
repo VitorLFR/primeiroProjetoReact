@@ -1,0 +1,47 @@
+.List{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.List h1, img{
+    margin-bottom: 3%;
+    font-size: 2vw;
+}
+
+.List img{
+    width: 20%;
+}
+
+.List p{
+    font-size: 1vw;
+}
+
+.nameListContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 0.5vw solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.nameListContainer h1{
+    margin-bottom: 2%;
+    font-size: 1vw;
+}
+
+.nameList{
+   display: flex;
+   flex-direction: column;
+   border: 0.2vw solid blue;
+   margin-bottom: 2%;
+   font-size: 1vw;
+}
+
+.nameList span{
+    margin-bottom: 2%;
+    font-size: 1vw;
+}

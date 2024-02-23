@@ -5,11 +5,40 @@
     align-items: center;
 
 }
-
+.contador h1{
+    margin-bottom: 2%;
+    font-size: 1vw;
+}
 .counter{
     padding: 2vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
     border-radius: 0.5vw;
     cursor: pointer;
+    transition: ease 0.10;
 }
+.button{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.button button{
+    margin-top: 2%;
+    width: 20%;
+    padding: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: ease 0.10;
+    font-size: 1vw;
+}
+.button button:hover{
+    transform: scale(1.05);
+    background-color: rgba(79, 77, 77, 0.5);
+    transition: ease 0.10;
+}
+

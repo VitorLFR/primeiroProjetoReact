@@ -4,9 +4,22 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container1{
   margin: 0 auto;
-  max-width: 800px;
+}
+
+.container1 h1{
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: 3vw;
+}
+.contact{
+  width: 100%;
+  text-align: center;
+}
+
+.contact a{
+  font-size: 1.5vw;
 }
 
 main{
