@@ -1,0 +1,22 @@
+.banner{
+    height: 10vw;
+    margin-top: 5%;
+    margin: 0 auto;
+}
+
+.banner-Container{
+    display: flex;
+    flex-direction: row;
+    height: 2vw;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.bannerBox{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.bannerBox img{
+    width: 50%;
+}

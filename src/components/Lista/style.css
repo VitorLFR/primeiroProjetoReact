@@ -33,15 +33,25 @@
     font-size: 1vw;
 }
 
-.nameList{
+.nameList > div{
    display: flex;
    flex-direction: column;
    border: 0.2vw solid blue;
-   margin-bottom: 2%;
+   margin-bottom: 5%;
    font-size: 1vw;
+   padding: 1vw 5vw 1vw 5vw;
 }
 
-.nameList span{
-    margin-bottom: 2%;
+.nameList > div span{
+    margin-bottom: 5%;
     font-size: 1vw;
+}
+
+.nameList{
+    overflow: auto;
+    max-height: 20vw;
+}
+
+.listMain{
+    margin-bottom: 10%;
 }
