@@ -1,4 +1,5 @@
-import "./style.css"
+import Logo from '../../assets/img/banner.jpg';
+import "./style.css";
 
 export function Banner() {
     return (
@@ -12,7 +13,7 @@ export function Banner() {
                 </div>
                 
                 <div className="bannerBox">
-                    <img src="http://lorempixel.com.br/300/250/?1" alt="imagem" />
+                    <img src={Logo} alt="imagem" />
                 </div>
                 
             </div>

@@ -2,21 +2,25 @@
     height: 10vw;
     margin-top: 5%;
     margin: 0 auto;
+    margin-bottom :8%;
 }
 
 .banner-Container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 2vw;
     flex-wrap: nowrap;
     align-items: center;
 }
 
 .bannerBox{
-    width: 25%;
+    width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .bannerBox img{
-    width: 50%;
+    width: 50vw;
+    height: 8vw;
+    margin: 0 auto;
 }

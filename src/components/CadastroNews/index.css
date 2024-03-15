@@ -1,0 +1,35 @@
+.formP{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.formMain{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    width: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control label{
+    padding-right: 1vw;
+}
+
+.buttonSubmit{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.buttonSubmit button{
+    padding: 0.75vw 0.5vw;
+    border-radius: 0.25vw;
+}
